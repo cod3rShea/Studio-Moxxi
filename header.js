@@ -23,7 +23,7 @@ let menu = `			<nav class="navbar navbar-expand-lg navbar-light bg-light">
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                     <li>
-                                        <a class="dropdown-item"href="https://benra.neocities.org/page_profile/">custom profile images</a>
+                                        <a class="dropdown-item"href="/profile/page_profile/">custom profile images</a>
                                     </li>
 
                                     <li>
