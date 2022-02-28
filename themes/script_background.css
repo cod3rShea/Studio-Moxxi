@@ -1,0 +1,40 @@
+#app-mount
+.app-2CXKsg,
+.bg-1QIAus,
+.chat-2ZfjoI,
+.wrapper-22ayhK,
+body {
+  background: 0 0;
+}
+.panels-3wFtMD {
+  background: rgba(41, 43, 47, var(--sides-transp));
+}
+.scroller-3X7KbA,
+.withFrame-2dL45i {
+  background: rgba(32, 34, 37);
+}
+.container-ZMc96U.themed-Hp1KC_,
+.members-3WRCEx,
+.nowPlayingColumn-1eCBCN,
+.scroller-3X7KbA,
+.sidebar-1tnWFu,
+.sidebarRegionScroller-FXiQOh,
+.withFrame-2dL45i {
+  backdrop-filter: blur(var(--sides-blur));
+}
+.appMount-2yBXZl {
+  background: var(--theme-bg) center/cover no-repeat;
+}
+.withFrame-2dL45i {
+  padding-top: 4px;
+  margin-top: 0;
+}
+.homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+background: var(--theme-home-icon) center/cover no-repeat;
+min-width: 55px;
+min-height: 55px;
+}
+.item-2LIpTv {
+  background-color: var( --theme-color1);
+}

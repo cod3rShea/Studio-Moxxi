@@ -1,0 +1,2518 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://outwar.com/cdn-cgi/apps/head/ZJd4J2_2R-rIerEVYExgSvAIZ7s.js"></script><style type="text/css">
+#outerdiv
+{
+width:160px;
+height:600px;
+overflow:hidden;
+position:relative;
+}
+
+#inneriframe
+{
+position:absolute;
+top:-72px;
+left:0px;
+width:160px;
+height:600px;
+}
+*:focus {outline:0px none transparent;}
+</style>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Outwar | Browser Based MMORPG - No Download</title>
+<meta name="description" content="Outwar is a free online MMORPG that can be played in any web browser with no download required. Immerse yourself in this addicting text based browser game.">
+<meta name="keywords" content="mmorpg, mmo, rpg, multiplayer, games, role playing, free, online, strategy, fantasy, browser, text, based, no download, adventure, pc, fun, top, new, best, addicting">
+<meta name="robots" content="FOLLOW, INDEX">
+<meta name="revisit-after" content="3 days">
+<link rel="icon" type="image/png" href="https://studiomoxxi.com/fav.png">
+<script language="Javascript">
+		/* copy to clipboard */
+		function copyToClipboard(s) {
+			if( window.clipboardData && clipboardData.setData ) {
+				clipboardData.setData("Text", s);
+			}
+		}
+
+		function openWindow(){
+			window.open('http://test.outwar.com//chatwindow?uname=Studio Moxxi','windowRef','width=640,height=485');
+		}
+	</script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+<link href="https://outwar.com/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://outwar.com/assets/css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="theme11.css" rel="stylesheet" type="text/css" />
+<link href="https://outwar.com/plugins/highlight/styles/monokai-sublime.css" rel="stylesheet" type="text/css" />
+<link href="https://outwar.com/plugins/sweetalerts/sweetalert2.min.css" rel="stylesheet" type="text/css">
+<link href="https://outwar.com/plugins/sweetalerts/sweetalert.css" rel="stylesheet" type="text/css">
+
+
+<link href="https://outwar.com/plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
+<link href="https://outwar.com/assets/css/dashboard/dash_1.css" rel="stylesheet" type="text/css" />
+<link href="https://outwar.com/assets/css/elements/alert.css" rel="stylesheet" type="text/css" />
+<link href="https://outwar.com/assets/css/custom.css" rel="stylesheet" type="text/css" />
+
+<link href="https://outwar.com/assets/css/scrollspyNav.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://outwar.com/plugins/font-icons/fontawesome/css/regular.css">
+<link rel="stylesheet" type="text/css" href="https://outwar.com/plugins/table/datatable/datatables.css">
+<link rel="stylesheet" type="text/css" href="https://outwar.com/plugins/table/datatable/dt-global_style.css">
+<link href="https://outwar.com/assets/css/components/custom-list-group.css" rel="stylesheet" type="text/css">
+<link href="https://outwar.com/assets/css/components/cards/card.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://outwar.com/font-awesome/css/fontawesome-all.css">
+
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+
+<script src="https://outwar.com/assets/js/libs/jquery-3.1.1.min.js"></script>
+<script src="https://outwar.com/bootstrap/js/popper.min.js"></script>
+<script src="https://outwar.com/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://outwar.com/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script src="https://outwar.com/plugins/sweetalerts/sweetalert2.min.js"></script>
+<script src="https://outwar.com/plugins/blockui/jquery.blockUI.min.js"></script>
+<script src="https://outwar.com/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+
+<script type="text/javascript" src="https://outwar.com/js/range.js"></script>
+<script type="text/javascript" src="https://outwar.com/js/timer.js"></script>
+<script type="text/javascript" src="https://outwar.com/js/slider.js"></script>
+<link href="https://outwar.com/assets/css/select2.min.css" rel="stylesheet" />
+<script src="https://outwar.com/assets/js/select2.min.js"></script>
+
+<script language="javascript" src="https://outwar.com/main.js"></script>
+
+<script language="javascript" src="https://outwar.com/ajax.js"></script>
+
+<script language="javascript" src="https://outwar.com/drag.js"></script>
+
+<script type="text/javascript" src="https://outwar.com/anylink.js"></script>
+
+<link rel="STYLESHEET" type="text/css" href="https://outwar.com/va_menu.css">
+<script type="text/javascript" src="https://outwar.com/va_menu.js"></script>
+<link type="text/css" rel="stylesheet" href="https://outwar.com/js/clock_assets/flipclock.css" />
+<link rel="STYLESHEET" type="text/css" href="https://outwar.com/pop.css">
+<link rel="stylesheet" type="text/css" href="https://outwar.com/landing/shadowbox.css">
+<script type="text/javascript" src="https://outwar.com/landing/shadowbox2.js"></script>
+<script type="text/javascript">
+
+    /*
+    onOpen: function() {
+          
+    }
+    */
+    
+Shadowbox.init({
+    skipSetup: true,
+    players: ['html'], // whatever players you want here
+    animate: true,
+    onClose: function(){ 
+    },
+    onOpen: function() {
+    },
+    enableKeys: true
+    });
+</script>
+<script type="text/javascript">
+function getCookie(player){
+    var i,x,y,ARRcookies=document.cookie.split(";");
+    for (i=0;i<ARRcookies.length;i++){
+      x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+      y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+      x=x.replace(/^\s+|\s+$/g,"");
+      if (x == player)
+      {
+        return 'oldPlayer';
+      }
+      else
+      {
+        return 'newPlayer';
+      }
+    }
+}
+
+function setCookie(newPlayer,value,exdays)
+{
+var exdate=new Date();
+exdate.setDate(exdate.getDate() + exdays);
+var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+document.cookie=newPlayer + "=" + c_value;
+}
+
+function checkCookie()
+{ 
+    var status = getCookie("player"); 
+    // New Player
+    if (status == 'newPlayer'){ 
+        var anchor = $('<a rel="shadowbox;height=510;width=778" class="sbox"  href="https://outwar.com/mob_talk?id=59293&stepid=3071&userspawn="><img src="https://outwar.com/landing/bigbubble.png" style="position:absolute;top:300px;left:600px;"></a>');
+        $('#mydiv').append(anchor);
+        anchor.click(function(){
+            setCookie('player','oldPlayer',365);
+            $(this).remove();
+        });
+    }    
+}
+</script>
+</head>
+
+<body xmlns:fb="http://www.facebook.com/2008/fbml">
+<div id="fb-root"></div>
+<div id="dropmenudiv" class="custom-dropdown-menu" style="visibility:hidden;position:absolute;z-index:9999;will-change: transform;" onMouseover="clearhidemenu()"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="dyk"></div>
+<div id="tutorialtip"></div>
+<div id="dhtmltooltip" style="z-index:2000;position: absolute;padding: 10px; border-radius: 5px;text-align: center"></div>
+<script type="text/javascript">
+disable_rollover = false;
+
+/************************
+* RAMPID TOOLTIP SYSTEM *
+************************/
+var tutobj = document.getElementById("tutorialtip");
+var tutorial_text = '';
+var tipwidth = '';
+
+var showtut = false;
+
+var ie=document.all;
+var ns6=document.getElementById && !document.all;
+
+function ietruebody(){
+	return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function ShowTutorial()
+{
+		if(showtut)
+		{
+			var winWidth=document.all&&!window.opera? ietruebody().clientWidth : window.innerWidth-20
+			var winHeight=document.all&&!window.opera? ietruebody().clientHeight : window.innerHeight
+			var floatHeight=tutobj.offsetHeight
+			var PageOffset=(ie) ?  document.body.scrollTop : window.pageYOffset
+			var tipLeft = winWidth - tipwidth - 10;
+			var tipTop = PageOffset+winHeight-floatHeight-10;
+			tutobj.style.width=tipwidth+"px"
+			tutobj.innerHTML=tutorial_text
+			tutobj.style.left= tipLeft+"px"
+			tutobj.style.top= tipTop-10+"px"
+			tutobj.style.visibility="visible"
+		}		
+}
+
+function repositiontut()
+{
+		if(showtut)
+		{
+				var winWidth=document.all&&!window.opera? ietruebody().clientWidth : window.innerWidth-20
+				var winHeight=document.all&&!window.opera? ietruebody().clientHeight : window.innerHeight
+				var floatHeight=tutobj.offsetHeight
+				var PageOffset=(ie) ?  document.body.scrollTop : window.pageYOffset
+				tutobj.style.left= winWidth-tipwidth-10+"px"
+				tutobj.style.top= PageOffset+winHeight-floatHeight-10+"px"
+			}
+}
+
+setInterval("repositiontut()", 250);
+
+</script>
+<script type="text/javascript">
+
+/***********************************************
+* Fixed ToolTip script- � Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+		
+var tipwidth='150px' //default tooltip width
+var tipbgcolor='lightyellow'  //tooltip bgcolor
+var disappeardelay=250  //tooltip disappear speed onMouseout (in miliseconds)
+var vertical_offset="5px" //horizontal offset of tooltip from anchor link
+var horizontal_offset="5px" //horizontal offset of tooltip from anchor link
+var offsetxpoint=10 //Customize x offset of tooltip
+var offsetypoint=-10 //Customize y offset of tooltip
+
+
+tipobj = document.getElementById("dhtmltooltip");
+
+/////No further editting needed
+
+var ie4=document.all
+var ns6=document.getElementById&&!document.all
+
+function positiontip(e){
+	var curX=(ns6)?e.pageX : event.x+ietruebody().scrollLeft;
+	var curY=(ns6)?e.pageY : event.y+ietruebody().scrollTop;
+		
+	//Find out how close the mouse is to the corner of the window
+	var rightedge=ie4&&!window.opera? ietruebody().clientWidth-event.clientX-offsetxpoint : window.innerWidth-e.clientX-offsetxpoint-20
+	var bottomedge=ie4&&!window.opera? ietruebody().clientHeight-event.clientY-offsetypoint : window.innerHeight-e.clientY-offsetypoint-20
+
+	var leftedge=(offsetxpoint<0)? offsetxpoint*(-1) : -1000
+
+	//if the horizontal distance isn't enough to accomodate the width of the context menu
+	if (rightedge<tipobj.offsetWidth)
+		//move the horizontal position of the menu to the left by it's width
+		tipobj.style.left=ie4? ietruebody().scrollLeft+event.clientX-tipobj.offsetWidth+"px" : window.pageXOffset+e.clientX-tipobj.offsetWidth+"px"
+	else if (curX<leftedge)
+		tipobj.style.left="5px"
+	else
+		//position the horizontal position of the menu where the mouse is positioned
+		tipobj.style.left=curX+offsetxpoint+"px"
+
+	//same concept with the vertical position
+	if (bottomedge<tipobj.offsetHeight)
+		tipobj.style.top=ie4? ietruebody().scrollTop+event.clientY-tipobj.offsetHeight-offsetypoint+"px" : window.pageYOffset+e.clientY-tipobj.offsetHeight-offsetypoint+"px"
+	else
+		tipobj.style.top=curY+offsetypoint+"px"
+	
+	tipobj.style.visibility="visible"
+}
+
+function fixedtooltip(e, menucontents, tipcolor, tipwidth){
+	positiontip(e);
+	if(tipcolor)
+		tipobj.style.backgroundColor=tipcolor;
+	tipobj.innerHTML=menucontents
+}
+
+function kill(){
+	tipobj.style.width="";
+	tipobj.style.height="";
+	tipobj.style.visibility="hidden"
+	offsetxpoint=10 //Customize x offset of tooltip
+	offsetypoint=-10 //Customize y offset of tooltip
+}
+
+function itempopup(e, itemid, item_data, server, price){
+	if(disable_rollover == true)
+		return;
+
+	const isMobileDevice = /Mobi/i.test(window.navigator.userAgent)
+	if(isMobileDevice)
+		return;		
+	
+	if(!item_data)
+		item_data = 0;
+        
+    if(!price)
+        price = 0;
+	
+	offsetxpoint=0 //Customize x offset of tooltip
+	offsetypoint=20 //Customize y offset of tooltip
+	
+	tipobj.className = '';
+	tipobj.style.width='300';
+	fixedtooltip(e, 'Retrieving data...');
+	getPopup(itemid, item_data, server, price);
+}
+function popup(e, thetext, thecolor, thewidth){
+	tipobj.className = 'itemPop';
+	fixedtooltip(e, thetext, thecolor, thewidth);
+}
+function infopopup(e, thetext, thecolor, thewidth){
+	//tipobj.className = 'dhtmltooltip';
+	tipobj.className = 'tooltip';
+	thecolor = "#FFFFE7";
+	thewidth = 300;
+	fixedtooltip(e, thetext, thecolor, thewidth);
+}
+function statspopup(e, thetext, thecolor, thewidth){
+
+	const isMobileDevice = /Mobi/i.test(window.navigator.userAgent)
+	if(isMobileDevice)
+		return;
+		
+	thetext = "<table style=\"font-size:8pt;\">"+thetext+"</table>";
+	thecolor="#000000";
+	fixedtooltip(e, thetext, thecolor, thewidth);
+}
+
+window.mobileCheck = function() {
+  let check = false;
+  (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+  return check;
+};
+
+function getPopup(itemid,dat,server,price){
+	var myRand = parseInt(Math.random()*999999);
+	if(!server){
+		server = "";
+	}
+    
+    if(!price) {
+        price = 0;
+    }
+	
+	send_url = "/item_rollover.php?id="+itemid+"&data="+dat+"&r="+myRand+"&serverid="+server+"&pr="+price;
+	requester = createRequester();
+	requester.onreadystatechange = function(){
+		if(requester.readyState == 4 && requester.status == 200){
+			tipobj.innerHTML = requester.responseText;
+		}
+	}
+	
+	requester.open("GET", send_url);
+	
+	if(OS == 'IE'){
+		requester.send();
+	}
+	else{
+		requester.send(null);
+	}
+}
+</script>
+<center>
+
+<div class="header-container fixed-top">
+<header class="header navbar navbar-expand-sm">
+<ul class="navbar-item theme-brand flex-row">
+<li class="nav-item">
+<a href="https://outwar.com/home">
+<img src="https://outwar.com/assets/img/outwarlogo.webp" class="navbar-logo" alt="logo">
+</a>
+</li>
+</ul>
+ <ul class="navbar-item theme-brand flex-row  ml-auto">
+<li class="nav-item theme-text" style="margin-bottom: -5px; margin-right:1px">
+<a href="https://outwar.com/world" class="nav-link topbutton"><img src="https://outwar.com/img/explore_world.gif" class="navbar-logo" alt="logo"></a>
+</li>
+<li class="nav-item theme-text" style="margin-bottom: -5px; margin-right:1px">
+<a href="https://outwar.com/dungeons" class="nav-link topbutton"><img src="https://outwar.com/img/dungeons.gif" class="navbar-logo" alt="logo"></a>
+</li>
+<li class="nav-item theme-text" style="margin-bottom: -5px; margin-right:1px">
+<a href="challenge" class="nav-link topbutton"><img src="https://outwar.com/img/challenges.gif" class="navbar-logo" alt="logo"></a>
+</li>
+<li class="nav-item theme-text" style="margin-bottom: -5px; margin-right:1px">
+<a href="https://outwar.com/news" class="nav-link topbutton"> <img src="https://outwar.com/img/news.gif" class="navbar-logo" alt="logo"> </a>
+</li>
+<li class="nav-item theme-text" style="margin-bottom: -5px;">
+<a href="https://outwar.com/discordchat.php" class="nav-link topbutton"> <img src="https://outwar.com/img/discord.gif" class="navbar-logo" alt="logo"> </a>
+</li>
+</ul>
+<ul class="navbar-item flex-row margin-on-mob">
+<li class="nav-item dropdown language-dropdown">
+<a href="https://outwar.com/world" class="nav-link topbutton"><img src="https://outwar.com/img/explore_world.gif" class="navbar-logo" alt="logo"></a>
+<div class="dropdown-menu position-absolute" aria-labelledby="language-dropdown">
+<a class="dropdown-item d-flex" href="https://outwar.com/world"><img src="https://outwar.com/assets/img/exploreworld.webp" alt="logo"></a>
+<a class="dropdown-item d-flex" href="https://outwar.com/dungeons"><img src="https://outwar.com/assets/img/dungeons.webp" alt="logo"></a>
+<a class="dropdown-item d-flex" href="challenge"><img src="https://outwar.com/assets/img/challenges.webp" alt="logo"></a>
+<a class="dropdown-item d-flex" href="https://outwar.com/news"><img src="https://outwar.com/assets/img/recentnews.webp" alt="logo"></a>
+<a class="dropdown-item d-flex" href="https://outwar.com/discordchat.php"><img src="https://outwar.com/assets/img/discord.webp" alt="logo"></a>
+</div>
+</li>
+</ul>
+</header>
+</div>
+
+
+<script>
+function statsCopyClipboard()
+{
+	window.clipboardData.setData('Text', 'https://torax.outwar.com/page?x=79161');
+}
+
+function swapCharacter()
+{
+	uid = document.getElementById('toolbar_uid').value;
+    if(uid > 0){window.location = "/world?suid="+uid+"&serverid=2";}
+    if(uid < 1){window.location = "/myaccount";}
+}
+
+	$(function() {
+
+
+	});
+</script>
+<div class="sub-header-container">
+<header class="header navbar navbar-expand-sm">
+<a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>
+<ul class="navbar-nav flex-row mr-auto toolbar-nav">
+<li class="nav-item more-dropdown">
+<div class="dropdown  custom-dropdown-icon">
+<select id="charselectdropdown" style="">
+<optgroup label="My Characters">
+<option value="79161" selected>Studio Moxxi</option>
+<option value="118156">Custom Pictures</option>
+<option value="117963">Gaming Items</option>
+<option value="118159">New Themes</option>
+<option value="123723">Discord Family</option>
+</select>
+</div>
+</li>
+<script type="text/javascript">
+		var isLoading = false;
+		$('#charselectdropdown').select2({
+			dropdownAutoWidth: true,
+			templateResult: formatState
+		});
+
+		$('#charselectdropdown').on('select2:select', function (e) {
+			var data = e.params.data;
+
+			if(data.id > 0) {
+				window.location = '/world?suid=' + data.id + '&serverid=2';
+			}
+			else {
+				window.location = '/myaccount';
+			}
+		});
+
+		function formatState (state) {
+			if (!state.id) {
+				return state.text;
+			}
+
+			if(state.id == 0) {
+				return $('<i>' + state.text + '</i>');
+			}
+
+			return state.text;
+		};
+	</script>
+<li class="nav-item more-dropdown little-space hide-on-mob ml-3">
+<a href="#" ONMOUSEOVER="statspopup(event,'<tr><td><b>Points:</b></td><td><font size=2 color=#00FF00>0.00</font></td></tr><tr><td><b>Premium:</b></td><td><font size=2 color=#00FF00>326.</font><font color=#00CC00>29</font><tr><td><b>Tokens:</b></td><td><font size=2 color=#00FF00>18</font><tr><td><b>Skill:</b></td><td>2</td></tr>')" ONMOUSEOUT="kill()"><img border="0" src="http://torax.outwar.com/images/toolbar/Points.png" align="middle"></a>
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob">
+<a href="#" ONMOUSEOVER="statspopup(event,'<tr><td><b>Gold:</b></td><td>58824391</td></tr>')" ONMOUSEOUT="kill()"><img border="0" src="http://torax.outwar.com/images/toolbar/Gold.png" align="middle"></a>
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob">
+<img ONMOUSEOVER="statspopup(event,'<b>Ultimate Preferred Player </b>')" ONMOUSEOUT="kill()" src="http://torax.outwar.com/images/toolbar/PP.png" align="middle">
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob">
+<p class="top-clock">12:00pm</p>
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob">
+<p class="top-level" ONMOUSEOVER="statspopup(event,'<tr><td><b>Attack:</b></td><td>100,000</td></tr><tr><td><b>Hit Points:</b></td><td>500,000</td></tr><tr><td><b>Critical:</b></td><td>100%</td></tr><tr><td><b>Block:</b></td><td>45%</td></tr>')" ONMOUSEOUT="kill()"><span>Level:</span> <span class="toolbar_level">91</span></p>
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob">
+<p class="top-exp" ONMOUSEOVER="statspopup(event,'<!--<tr><td><b>From Underlings:</b></td><td>0</td></tr>--><tr><td><b>Enhancement Exp:</b></td><td>0</td></tr><tr><td><b>Needed to Level:</b></td><td>1</td></tr><tr><td><b>Growth Today:</b></td><td>999,999,999</td></tr><tr><td><b>Per Turn:</b></td><td>99999</td></tr><tr><td><b>Minimum:</b></td><td>99,999,999,999</td></tr>')" ONMOUSEOUT="kill()"><span>EXP:</span> <span class="toolbar_exp">99,999,999,999</span></p>
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob">
+<p class="top-rage" ONMOUSEOVER="statspopup(event,'<tr><td><b>Per Turn:</b></td><td>YES</td></tr><tr><td><b>Maximum:</b></td><td>NONE</td></tr><tr><td><b>Rampage:</b></td><td>ALWAYS</td></tr>')" ONMOUSEOUT="kill()"><span style="color:#FFFFFF">RAGE:</span> <span class="toolbar_rage">UNLIMITED</span></p>
+</li>
+<li class="nav-item more-dropdown little-space hide-on-mob progress-top">
+<div class="progress br-30" style="background-color:#252c56" ONMOUSEOVER="statspopup(event,'Strength: 100')" ONMOUSEOUT="kill()">
+<div class="progress-bar bg-danger bs-tooltip" role="progressbar" style="width: 45%"> <div style="width:0%;height:8px;background-color:#990000;"></div>
+</div>
+</div>
+</li>
+</ul>
+<ul class="navbar-item flex-row mr-auto mobile-little hide-on-desk">
+<li class="nav-item mob-top dropdown language-dropdown">
+<a href="javascript:void(0);" class="nav-link dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<div class="dropdown-item d-flex little-space">
+<p class="top-exp mr-1 menu_mid_size"><span>EXP:</span> <span class="toolbar_exp">43,596,310,943<span></p>
+<p class="top-rage"><span style="color:#FFFFFF">RAGE:</span> <span class="toolbar_rage">85164<span></p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down" style="
+								position: absolute;
+								top: 13px;
+								left: 10px;
+							"><polyline points="6 9 12 15 18 9"></polyline></svg>
+</a>
+<div class="dropdown-menu custom-dropdown-menu position-absolute" aria-labelledby="language-dropdown">
+<div class="dropdown-item d-flex little-space">
+<p class="top-clock">8:52pm</p>
+</div>
+<div class="dropdown-item d-flex little-space">
+<p class="top-level" ONMOUSEOVER="statspopup(event,'<tr><td><b>Attack:</b></td><td>58,483</td></tr><tr><td><b>Hit Points:</b></td><td>106,621</td></tr><tr><td><b>Critical:</b></td><td>967%</td></tr><tr><td><b>Block:</b></td><td>45%</td></tr>')" ONMOUSEOUT="kill()"><span>Level:</span> <span class="toolbar_level">89</span></p>
+</div>
+<div class="dropdown-item d-flex little-space">
+<p class="top-exp" ONMOUSEOVER="statspopup(event,'<!--<tr><td><b>From Underlings:</b></td><td>0</td></tr>--><tr><td><b>Enhancement Exp:</b></td><td>0</td></tr><tr><td><b>Needed to Level:</b></td><td>6,403,689,057</td></tr><tr><td><b>Growth Today:</b></td><td>991000430</td></tr><tr><td><b>Per Turn:</b></td><td>26033</td></tr><tr><td><b>Minimum:</b></td><td>41,000,000,000</td></tr>')" ONMOUSEOUT="kill()"><span>EXP:</span> <span class="toolbar_exp">43,596,310,943</span></p>
+</div>
+<div class="dropdown-item d-flex little-space">
+<p class="top-rage" ONMOUSEOVER="statspopup(event,'<tr><td><b>Per Turn:</b></td><td>27444</td></tr><tr><td><b>Maximum:</b></td><td>216103</td></tr><tr><td><b>Rampage:</b></td><td>1198%</td></tr>')" ONMOUSEOUT="kill()"><span>RAGE:</span> <span class="toolbar_rage">85164</span></p>
+</div>
+<div class="dropdown-item d-flex little-space">
+<p class="top-points">
+<b>Points: </b><td><font size=2 color=#00FF00>0.00</font>
+<b class="pl-2">Premium: </b><td><font size=2 color=#00FF00>326.</font><font color=#00CC00>29</font>
+</p>
+</div>
+<div class="dropdown-item d-flex little-space">
+<p class="top-points">
+<b>Tokens: </b><td><font size=2 color=#00FF00>18</font>
+<b class="pl-2">Skill: </b><td>2 </div>
+<div class="dropdown-item d-flex little-space progress-top">
+<div class="progress br-30">
+<div class="progress-bar bg-danger bs-tooltip" role="progressbar" style="width: 45%" ONMOUSEOVER="statspopup(event,'Strenght: 45')" ONMOUSEOUT="kill()"> <div style="width:0%;height:8px;background-color:#990000;"></div>
+</div>
+</div>
+</div>
+<div class="dropdown-item d-flex">
+<a href="https://outwar.com/weeklyquests" class="nav-link dropdown-toggle" id="notificationDropdown" ONMOUSEOVER="statspopup(event,'Weekly Quests!')" ONMOUSEOUT="kill()">
+<img src="http://torax.outwar.com/images/toolbar/DailyQuest.png" class="navbar-logo" alt="logo">
+</a>
+<a href="https://outwar.com/ow_messagecenter" class="nav-link dropdown-toggle" ONMOUSEOVER="statspopup(event,'<tr><td><b>New Messages</b></td></tr>')" ONMOUSEOUT="kill()"><img border="0" src="http://torax.outwar.com/images/toolbar/Message.png" alt="Messages"></a>
+</div>
+</div>
+</li>
+</ul>
+<ul class="navbar-item flex-row ml-auto">
+<li class="nav-item dropdown notification-dropdown hide-on-mob">
+<a href="https://outwar.com/ow_messagecenter" class="nav-link dropdown-toggle" ONMOUSEOVER="statspopup(event,'<tr><td><b>New Messages</b></td></tr>')" ONMOUSEOUT="kill()"><img border="0" src="http://torax.outwar.com/images/toolbar/Message.png" alt="Messages"></a>
+</li>
+<li class="nav-item dropdown notification-dropdown hide-on-mob">
+<a href="https://outwar.com/raidtools" class="nav-link dropdown-toggle" ONMOUSEOVER="statspopup(event,'<tr><td><b>Today\'s new guardians:<br /><br />Dumbass psycho swarm has been spotted!<br><br><b><a href=raidtools.php style=color:#00CC00>(Click for Raid Tools)</a></b></b></td></tr>','#000000',350)" ONMOUSEOUT="kill()"><img src="http://torax.outwar.com/images/toolbar/Spawned.png" border="0" alt="Spawned Raids"></a>
+</li>
+<li class="nav-item dropdown notification-dropdown hide-on-mob">
+<a href="https://outwar.com/weeklyquests" class="nav-link dropdown-toggle" id="notificationDropdown" ONMOUSEOVER="statspopup(event,'Weekly Quests!')" ONMOUSEOUT="kill()">
+<img src="http://torax.outwar.com/images/toolbar/DailyQuest.png" class="navbar-logo" alt="logo">
+</a>
+</li>
+<li class="nav-item dropdown notification-dropdown">
+<a href="javascript:void(0);" onclick="toggleEquipment();" class="nav-link dropdown-toggle" id="notificationDropdown" ONMOUSEOVER="statspopup(event,'Click to view Equipment')" ONMOUSEOUT="kill()">
+<img src="http://torax.outwar.com/images/toolbar/Equipment.png" class="navbar-logo" alt="logo">
+</a>
+</li>
+<li class="nav-item dropdown notification-dropdown">
+<a onclick="toggleBackpack(null,79161);" href="javascript:void(0);" class="nav-link dropdown-toggle" id="notificationDropdown" ONMOUSEOVER="statspopup(event,'Click to view Backpack')" ONMOUSEOUT="kill()">
+<img src="http://torax.outwar.com/images/toolbar/Backpack.png" class="navbar-logo" alt="logo">
+</a>
+</li>
+<li class="nav-item dropdown user-profile-dropdown hide-on-mob">
+<a onclick="toggleQuests();" href="javascript:void(0);" class="nav-link dropdown-toggle user" id="userProfileDropdown" ONMOUSEOVER="statspopup(event,'Click to view Quests')" ONMOUSEOUT="kill()">
+<img src="http://torax.outwar.com/images/toolbar/Quests.png" alt="avatar">
+</a>
+</li>
+</ul>
+</header>
+</div>
+<div class="sub-header-container2">
+<div class="widget-content">
+<div class="order-summary">
+<div class="summary-list">
+<div class="w-summary-details">
+<div class="w-summary-stats">
+<div class="progress" ONMOUSEOVER="statspopup(event,'<b>2,596,310,943 / 9,000,000,000xp')" ONMOUSEOUT="kill()">
+<div id="expbar" class="progress-bar bg-gradient-success" role="progressbar" style="width: 28.847899366667%" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="main-container justify-content-center " id="container">
+<div class="overlay"></div>
+
+<div class="sidebar-wrapper sidebar-theme">
+<nav id="sidebar">
+<div class="shadow-bottom"></div>
+<ul class="list-unstyled menu-categories" id="accordionExample">
+
+<li class="menu">
+<a href="https://outwar.com/myaccount" class="dropdown-toggle">
+<div class="">
+<i class="fa fa-address-card"></i>
+<span> MY RGA</span>
+</div>
+</a>
+</li>
+
+<li class="menu">
+<a href="https://outwar.com/home" class="dropdown-toggle">
+<div class="">
+<i class="fa fa-home"></i>
+<span> HOME</span>
+</div>
+</a>
+</li>
+
+<li class="menu">
+<a href="#components" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+<div class="">
+<i class="fas fa-user fa-fw"></i>
+<span>CHARACTER</span>
+</div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</div>
+</a>
+<ul class="collapse submenu list-unstyled" id="components" data-parent="#accordionExample">
+<li><a href="https://outwar.com/profile"> PROFILE</a></li>
+<li><a href="https://outwar.com/ow_messagecenter"> MESSAGE CENTER</a></li>
+<li><a href="https://outwar.com/allies"> MY ALLIES</a></li>
+<li>
+<a class="dropdown-toggle collapsed" href="#pvpmenu" id="dropdown06" data-toggle="collapse" aria-expanded="false">PVP <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+<ul id="pvpmenu" class="list-unstyled sub-submenu collapse">
+<li><a href="https://outwar.com/pvptourney"> OPEN PVP TOURNEY</a></li>
+ <li><a href="https://outwar.com/closedpvp"> PVP BRAWL</a></li>
+</ul>
+</li>
+<li><a href="https://outwar.com/gladiator"> GLADIATORS</a></li>
+</li>
+<li><a href="https://outwar.com/collections"> COLLECTIONS</a></li>
+<li><a href="https://outwar.com/underlings"> UNDERLINGS</a></li>
+<li><a href="https://outwar.com/achievements"> ACHIEVEMENTS</a></li>
+<li><a href="https://outwar.com/user_preferences"> PREFERENCES</a></li>
+<li><a href="https://outwar.com/photos"> PLAYER PHOTOS</a></li>
+<li>
+<a href="https://rampidgaming.outwar.com/ppoverview_s2?owsrv=2&owchar=79161&rg_sess_id=0aa1fe767b1cd4f6d8f57824ff0ad809" target="_blank"> PREFERRED PLAYER</a></li>
+<li><a href="https://outwar.com/?cmd=logout"> LOGOUT</a></li>
+</ul>
+</li>
+
+<li class="menu">
+<a href="#elements" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+<div class="">
+<i class="fa fa-shopping-cart fa-fw"></i>
+<span>MARKETPLACE</span>
+</div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</div>
+</a>
+<ul class="collapse submenu list-unstyled" id="elements" data-parent="#accordionExample">
+<li><a href="https://outwar.com/treasury?type=-1"> TREASURY</a></li>
+<li><a href="https://outwar.com/treasury?type=192"> AMULET SHOP</a></li>
+<li><a href="https://outwar.com/blacksmith"> BLACKSMITH</a></li>
+<li><a href="https://outwar.com/cauldron"> CAULDRON</a></li>
+<li><a href="https://outwar.com/supplies"> SUPPLIES</a></li>
+<li><a href="https://outwar.com/claimgift"> CLAIM GIFTS</a></li>
+</ul>
+</li>
+
+<li class="menu">
+<a href="https://outwar.com/newrankings" aria-expanded="false" class="dropdown-toggle">
+<div class="">
+<i class="fa fa-trophy-alt fa-fw"></i>
+<span>RANKINGS</span>
+</div>
+</a>
+</li>
+
+<li class="menu">
+<a href="#datatables" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+<div class="">
+<i class="fas fa-location-arrow fa-fw"></i>
+<span>ACTIONS</span>
+</div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</div>
+</a>
+<ul class="collapse submenu list-unstyled" id="datatables" data-parent="#accordionExample">
+<li><a href="https://outwar.com/attack_search"> ATTACK / SEARCH</a></li>
+<li><a href="https://outwar.com/attacklog"> ATTACK LOG</a></li>
+<li><a href="https://outwar.com/myhitlist"> MY HITLIST</a></li>
+<li><a href="https://outwar.com/bounty"> BOUNTY LIST</a></li>
+<li><a href="https://outwar.com/questlog"> QUEST LOG</a></li>
+<li><a href="https://outwar.com/cast_skills"> SKILLS</a></li>
+<li><a href="https://outwar.com/auto_skiller"> AUTO SKILLER</a></li>
+<li><a href="https://outwar.com/vault"> VAULT</a></li>
+<li><a href="https://outwar.com/augmentequip"> MANAGE AUGMENTS</a></li>
+<li><a href="https://outwar.com/itemtransfer"> ITEM TRANSFER</a></li>
+<li><a href="https://outwar.com/pointtransfer"> TRANSFER POINTS</a></li>
+</ul>
+</li>
+
+<li class="menu">
+<a href="#forms" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+<div class="">
+<i class="fas fa-shield fa-fw"></i>
+<span>CREW</span>
+</div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</div>
+</a>
+<ul class="collapse submenu list-unstyled" id="forms" data-parent="#accordionExample">
+<li><a href="https://outwar.com/crew_home"> CREW HOME</a></li>
+<li><a href="https://outwar.com/crew_bossspawns"> RAID BOSSES</a></li>
+<li><a href="https://outwar.com/crew_profile"> CREW PROFILE</a></li>
+<li><a href="https://outwar.com/crew_vault"> CREW VAULT</a></li>
+<li><a href="https://outwar.com/crew_hitlist"> CREW HITLIST</a></li>
+<li><a href="https://outwar.com/godstatus"> GOD STATUS</a></li>
+<li><a href="https://outwar.com/raidtools"> GOD TELEPORT</a></li>
+<li><a href="https://outwar.com/crew_leavecrew"> LEAVE CREW</a></li>
+</ul>
+</li>
+
+<li class="menu">
+<a href="#users" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+<div class="">
+<i class="fas fa-usd-square fa-fw"></i>
+<span>CASINO</span>
+</div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+</div>
+</a>
+<ul class="collapse submenu list-unstyled" id="users" data-parent="#accordionExample">
+<li><a href="https://outwar.com/scratch_ticket"> SCRATCH TICKETS</a></li>
+<li><a href="https://outwar.com/raffle"> 50/50 RAFFLE</a></li>
+<li><a href="https://outwar.com/kotw"> KING OF THE WEEK</a></li>
+</ul>
+</li>
+
+<li class="menu">
+<a href="https://outwar.com/challenge" class="dropdown-toggle">
+<div class="">
+<i class="fas fa-trophy fa-fw"></i>
+<span>CHALLENGES</span>
+</div>
+</a>
+</li>
+
+
+<li class="menu">
+<a href="https://outwar.com/world" class="dropdown-toggle">
+<div class="">
+<i class="fas fa-globe fa-fw"></i>
+<span>WORLD</span>
+</div>
+</a>
+</li>
+
+<p>&nbsp;</p>
+<a rel="shadowbox;height=494;width=775" class="sbox" href="https://rampidgaming.outwar.com/stripe_buy?game=ow&outwar=0&wsrv=$subDomain&lvl=$user[level]&rg_sess_id=0aa1fe767b1cd4f6d8f57824ff0ad809" class="mt-3">
+<img src="https://outwar.com/assets/img/getpoints.webp">
+</a>
+<p>New: Save up to 10%!</p>
+</ul>
+</nav>
+</div>
+
+<div class="modal fade" id="attackmodal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="attacktitle">Attack</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+</button>
+</div>
+<form id="attackform" method="post">
+<div class="modal-body">
+<div class="form-group text-left">
+<p>Attack Message</p>
+<input id="attackmessage" type="text" name="message" placeholder="enter message..." class="form-control">
+<input type="submit" class="mt-4 btn btn-primary" value="Attack!">
+</div>
+This attack will cost you <span id="ragelabel"></span> rage.
+<input size="1" type="hidden" id="rage-value" name="rage">
+<input type="hidden" name="hash" id="attackhash">
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="modal fade" id="securityconfirm" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="securityconfirm-title">Security Confirm</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+</button>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-1" style="min-width:70px">
+<img id="securityconfirm-image" class="itemimage">
+</div>
+<div class="col">
+<p class="modal-text text-left" id="securityconfirm-text"></p>
+</div>
+</div>
+<div class="form-group mt-3" id="secwordgroup">
+<label for="">What is your mother's maiden name?</label>
+<input type="password" name="answer" class="form-control" id="secanswer">
+</div>
+<div class="form-group mt-3" id="qtygroup">
+<label>Quantity:</label>
+<input type="text" name="quantity" class="form-control" id="qtyspinner">
+</div>
+</div>
+<form>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal"><span>Cancel</span></button>
+<button type="button" class="btn btn-primary" id="securityconfirm-submit"><div id="securityconfirm-spinner" style="display:none" class="spinner-border" role="status">
+<span class="sr-only"></span>
+</div> <span id="securityconfirm-okbutton">Delete</span></button>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<div id="content" class="main-content">
+<div class="layout-px-spacing">
+
+<div id="tooltip" style="position:absolute;visibility:hidden"></div>
+<div id="levelup" style="background-color: green;border: black;width: 100%; height=150px;display: none;"><table width=100% height=150 cellpadding=0 cellspacing=0 border=0>
+<td background="https://outwar.com/landing/levelupbg.jpg" height=150><div align="center">
+<table width=600 height=150 cellpadding=0 cellspacing=0 border=0>
+<td><a rel="shadowbox;height=510;width=778" class="sbox" href="levelup.php" onclick="javascript:hidelevelup();"><img src="https://outwar.com/landing/levelupcenter.jpg" border=0></a></td>
+</table></div>
+</td>
+</table></div>
+<div class="row justify-content-center" id="content-header-row">
+<script type="text/javascript">
+function viewMore() {
+    item1 = document.getElementById('otherStats1');
+    item2 = document.getElementById('otherStats2');
+
+    item1.style.display = 'block';
+    item2.style.display = 'block';
+}
+</script>
+<style>
+
+
+/* 
+==============
+    Bio
+==============
+*/
+.bio .widget-content-area {
+    border-radius: 6px;
+    padding-bottom: 0;
+}
+
+.bio .widget-content-area h3 {
+    position: relative;
+    font-size: 21px;
+    color: #bfc9d4;
+    margin: 6px 0px 0px 0;
+}
+
+.bio .widget-content-area h3:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 60px;
+    background: #009688;
+    border-radius: 50%;
+    bottom: -2px;
+    left: 15px;
+}
+
+.bio .widget-content-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #888ea8;
+}
+
+.bio .widget-content-area p {
+    color: #bfc9d4;
+    font-size: 15px;
+}
+
+.bio .widget-content-area .bio-skill-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bio .widget-content-area .b-skills {
+    padding: 22px 16px;
+    box-shadow: 2px 5px 17px 0 rgba(31, 45, 61, .1);
+    background: #191e3a;
+    border-radius: 10px;
+    padding: 20px 20px 17px;
+}
+
+.bio .widget-content-area .b-skills svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 21px;
+    color: #4361ee;
+}
+
+.bio .widget-content-area .b-skills h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.bio .widget-content-area .b-skills p {
+    font-size: 13px;
+}
+
+.table td, .table th {
+    padding: 5px;
+}
+
+.table > tbody:before {
+    content: ''
+}
+
+.list-group-item{
+    padding: 8px 8px;
+  }
+</style>
+<div class="bio col-lg-8 col-md-8 col-sm-12 col-12 layout-spacing layout-spacing">
+<div class="widget widget-chart-one mb-3">
+<div class="widget-heading border-bottom-dashed">
+<h6 class="">Studio Moxxi</h6><span class="t-uppercontent">Level 91 Borderlands Legend</span>
+</div>
+<div class="widget-content text-left" style="position: relative;">
+<div>
+<a href="crew_profile?id=">Moxxi's Playhouse</a> </div>
+<div>MOTD: Get Rich or Die Trying</div>
+<img align="absmiddle" border="0" src="https://outwar.com/images/skills/skill_2952.gif" hspace="2" width="25" height="25" alt="Underlings" ONMOUSEOVER="popup(event,'<b>Level 1 Underlings</b><br /><br />54 mins left<br>Cast By Studio Moxxi',808080)" ONMOUSEOUT="kill()">
+</div>
+</div>
+<div class="widget-content widget-content-area text-left">
+<h3 class="">Stats</h3>
+<div class="bio-skill-box">
+<div class="row">
+<div class="col-12 col-xl-6">
+<div class="row">
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>ATK / HP TOTALS AND MODIFIERS</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+<tr>
+<td width="68%">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your base damage.')" onmouseout="kill()">Attack Total:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+58,483</font>
+</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your health.')" onmouseout="kill()">Hit Points Total:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+106,621</font>
+</td>
+<td align="right"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from your level.')" onmouseout="kill()">ATK From Level:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+11,900</font>
+</td>
+<td align="right"><a href="https://outwar.com/world"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from your level.')" onmouseout="kill()">HP From Level:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+18,400</font>
+</td>
+<td align="right"><a href="https://outwar.com/world"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from equipped items.')" onmouseout="kill()">ATK From Items:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+24,287</font>
+</td>
+<td align="right"><a href="https://outwar.com/blacksmith"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from equipped items.')" onmouseout="kill()">HP From Items:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+44,945</font>
+</td>
+<td align="right"><a href="https://outwar.com/blacksmith"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+ </tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from class.')" onmouseout="kill()">ATK From Class:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0</font>
+</td>
+<td align="right"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from class.')" onmouseout="kill()">HP From Class:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0</font>
+</td>
+<td align="right"></a></td>
+</tr>
+
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from completing wilderness levels.')" onmouseout="kill()">ATK From Wilderness:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+702</font>
+</td>
+<td align="right"><a href="https://outwar.com/wilderness"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from completing wilderness levels.')" onmouseout="kill()">HP From Wilderness:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+702</font>
+</td>
+<td align="right"><a href="https://outwar.com/wilderness"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from skills and potions.')" onmouseout="kill()">ATK From Skills:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+1,854</font>
+</td>
+<td align="right"><a href="https://outwar.com/cast_skills"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from skills and potions.')" onmouseout="kill()">HP From Skills:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+4,215</font>
+</td>
+<td align="right"><a href="https://outwar.com/cast_skills"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from strength.')" onmouseout="kill()">ATK From Strength:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+3,570</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Strength+Potion"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from strength.')" onmouseout="kill()">HP From Strength:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+ 5,520</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Strength+Potion"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Attack increase from supplies.')" onmouseout="kill()">ATK From Supplies:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+343</font>
+</td>
+<td align="right"><a href="https://outwar.com/supplies"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Health increase from supplies.')" onmouseout="kill()">HP From Supplies:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+2,338</font>
+</td>
+<td align="right"><a href="https://outwar.com/supplies"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>CHARACTER UPGRADES</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of experience you automatically receive every hour. Gain experience to level up or purchase enhancements from the treasury. Upgrade purchased on the treasury.')" onmouseout="kill()">EXP Per turn:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+300 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Experience+Per+Turn"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to double strip and gain strength when attacking a player. Upgrade purchased on the treasury.')" onmouseout="kill()">Rampage:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+10%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Rampage+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of rage you automatically receive every hour. Rage is used to attack enemies and cast skills. Upgrade purchased on the treasury.')" onmouseout="kill()">Rage Per Turn:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+500 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Rage+Per+Turn"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the maximum amount of rage your character can have. Rage is used to attack enemies and cast skills. Upgrade purchased on the treasury.')" onmouseout="kill()">Max Rage:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+5,000 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Rage+Capacity"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of attacks you can view in your personal attack log. Upgrade purchased on the treasury.')" onmouseout="kill()">Attack Log Lines:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+100</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Attack+Log+Lines"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of items you can store in your personal vault. Upgrade purchased on the treasury.')" onmouseout="kill()">Vault Size:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+200</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Personal+Vault"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of items you can hold in your regular backpack. Upgrade purchased on the treasury.')" onmouseout="kill()">Backpack Size:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+120</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=186"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of completed trades you can view in your treasury log. Upgrade purchased on the treasury.')" onmouseout="kill()">Trade Log Lines:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+100</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Treasury+History+Lines"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of items you can have for sale on the treasury. Upgrade purchased on the treasury.')" onmouseout="kill()">Items for trade:</b></font>
+</td>
+<td align="right" valign="top">
+<font size="-2" face="verdana" color="#FFFFFF">
+15</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Items+for+Sale"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of players you can add to your personal hitlist. Upgrade purchased on the treasury.')" onmouseout="kill()">Hitlist:</b></font>
+</td>
+<td align="right" valign="top">
+<font size="-2" face="verdana" color="#FFFFFF">
+15</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Personal+Hitlist+Lines"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the allowed size of your profile picture. Upgrade purchased on the treasury.')" onmouseout="kill()">Profile picture size:</b></font>
+</td>
+<td align="right" valign="top">
+<font size="-2" face="verdana" color="#FFFFFF">
+3,000kb</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Digital+Camera"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>DAMAGE TYPES</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Fire elemental damage you deal.')" onmouseout="kill()">Fire Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+15,745</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Arcane elemental damage you deal.')" onmouseout="kill()">Arcane Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+15,745</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Shadow elemental damage you deal.')" onmouseout="kill()">Shadow Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+15,745</font>
+ </td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Holy elemental damage you deal.')" onmouseout="kill()">Holy Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+15,745</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Kinetic elemental damage you deal.')" onmouseout="kill()">Kinetic Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+15,745</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Chaos elemental damage you deal.')" onmouseout="kill()">Chaos Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+990</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'The total amount of elemental damage you deal.')" onmouseout="kill()">Total Elemental Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+79,715 </font>
+</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Vile damage you deal.')" onmouseout="kill()">Vile Damage:</b></font>
+</td>
+<td align="right" valign="top">
+<font size="-2" face="verdana" color="#FFFFFF">
+12,120 </font>
+</td>
+<td align="right"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>DAMAGE RESISTANCE</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Fire elemental damage you take. 10 Resist = 1% reduction. Maximum of 900.')" onmouseout="kill()">Fire Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+890</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Arcane elemental damage you take. 10 Resist = 1% reduction. Maximum of 900.')" onmouseout="kill()">Arcane Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+890</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Shadow elemental damage you take. 10 Resist = 1% reduction. Maximum of 900.')" onmouseout="kill()">Shadow Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+890</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Holy elemental damage you take. 10 Resist = 1% reduction. Maximum of 900.')" onmouseout="kill()">Holy Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+890</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Kinetic elemental damage you take. 10 Resist = 1% reduction. Maximum of 900.')" onmouseout="kill()">Kinetic Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+890</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Chaos elemental damage you take. 10 Resist = 1% reduction. Maximum of 900.')" onmouseout="kill()">Chaos Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?type=244"><img src="https://outwar.com/images/button_increasestat.gif"></a>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'The total amount of elemental damage you resist.')" onmouseout="kill()">Total Elemental Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+4,450 </font>
+</td>
+<td align="right"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>COLLECTION UPGRADES</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your base damage. Upgraded by completing collection quests.')" onmouseout="kill()">Attack:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+420</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your health. Upgraded by completing collection quests.')" onmouseout="kill()">Hit Points:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+840</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of experience you automatically receive every hour. Gain experience to level up or purchase enhancements from the treasury. Upgraded by completing collection quests.')" onmouseout="kill()">Experience Per Turn:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+300</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of rage you automatically receive every hour. Rage is used to attack enemies and cast skills. Upgraded by completing collection quests.')" onmouseout="kill()">Rage Per Turn:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the maximum amount of rage your character can have. Rage is used to attack enemies and cast skills. Upgraded by completing collection quests.')" onmouseout="kill()">Maximum Rage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+1,400</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Vile damage you deal. Upgraded by completing collection quests.')" onmouseout="kill()">Vile Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Holy, Arcane, Fire, Kinetic and Shadow damage you deal. Upgraded by completing collection quests.')" onmouseout="kill()">All Elemental Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+150</font>
+</td>
+<td align="right"><a href="https://outwar.com/collections"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-xl-6">
+<div class="row">
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>STATS FROM ITEMS</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+ <tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to strike a Critical Hit, increasing your base damage significantly.')" onmouseout="kill()">Critical Hit:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+100%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A8%3A%22critical%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your base damage. Critical Hit over 100% increases this stat.')" onmouseout="kill()">Overkill:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+17.8%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A8%3A%22critical%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block base damage. Does not block any elemental damage. Maximum of 45%.')" onmouseout="kill()">Block:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+45%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A7%3A%22deflect%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Reduces normal damage taken. Block over 45% increases this stat.')" onmouseout="kill()">Parry:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+1.7%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A8%3A%22critical%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block all elemental damage. Only effective against raid encounters.  Maximum of 65%.')" onmouseout="kill()">Elemental Block:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+65%</font>
+</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Reduces elemental raid damage taken. Elemental block over 65% increases this stat.')" onmouseout="kill()">Deflect:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+1.5%
+</font>
+</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of experience you automatically receive every hour. Gain experience to level up or purchase enhancements from the treasury.')" onmouseout="kill()">Exp per turn:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+24,133</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A3%3A%22cpt%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of rage you automatically receive every hour. Rage is used to attack enemies and cast skills.')" onmouseout="kill()">Rage per turn:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+25,444</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A3%3A%22apt%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the maximum amount of rage your character can have. Rage is used to attack enemies and cast skills.')" onmouseout="kill()">Max Rage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+194,603</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A10%3A%22maxattacks%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+ <tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to double strip and gain strength when attacking a player.')" onmouseout="kill()">Rampage:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+100%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A3%3A%22app%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of experience stripped and gained when attacking a player. Rampage over 100% increases this stat.')" onmouseout="kill()">Frenzy:</b></font>
+</td>
+<td align="right">
+<font size="-2" face="verdana" color="#FFFFFF">
+121.4%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=&type=&sort=cost&ad=a&searchData=a%3A4%3A{s%3A4%3A%22slot%22%3Bs%3A3%3A%22any%22%3Bs%3A9%3A%22isAugment%22%3Bs%3A1%3A%221%22%3Bs%3A12%3A%22searchButton%22%3Bs%3A6%3A%22Search%22%3Bs%3A5%3A%22stats%22%3Ba%3A1%3A{s%3A8%3A%22app%22%3Bs%3A1%3A%221%22%3B}}"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to deal a Perfect Strike, causing your base attack to deal the highest damage possible.')" onmouseout="kill()">Perfect Strike:</b></font>
+</td>
+<td align="right" valign="top">
+<font size="-2" face="verdana" color="#FFFFFF">
+17.0%</font>
+</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of gold you automatically receive every hour. Gold can be used to purchase supplies or items from the treasury.')" onmouseout="kill()">Gold Per Turn:</b></font>
+</td>
+<td align="right" valign="top">
+<font size="-2" face="verdana" color="#FFFFFF">
+0 </font>
+</td>
+<td align="right"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 mb-3">
+<div class="d-flex b-skills">
+<div>
+</div>
+<div class="w-100">
+<h5>ENHANCEMENT UPGRADES</h5>
+<div class="table-responsive">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" class="table table-striped">
+<tr>
+<td></td>
+<td align="right"><b>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFF00">
+Cur / Max</font>
+</b></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your base damage. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Attack:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+700 /
+700 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Attack+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your health. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Hit Points:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+1,300 /
+2,500 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Hit+Point+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block base damage. Does not block any elemental damage. Maximum of 45%. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Block:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+5% / 5%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Block+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block all elemental damage. Only effective against raid encounters.  Maximum of 45%. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Elemental Block:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+1% / 10%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Elemental+Block+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to strike a Critical Hit, increasing your base damage significantly. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Critical Hit:</b></font>
+ </td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+10% / 110%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Critical+Hit+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to double strip and gain strength when attacking a player. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Rampage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 100%
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Rampage+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of experience you automatically receive every hour. Gain experience to level up or purchase enhancements from the treasury. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Experience Per Turn:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+250 /
+250</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Experience+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of rage you automatically receive every hour. Rage is used to attack enemies and cast skills. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Rage Per Turn:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+250 /
+500 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Rage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of gold you automatically receive every hour. Gold can be used to purchase supplies or items from the treasury. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Gold Per Turn:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+10 / 500
+</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Gold+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to deal a Perfect Strike, causing your base attack to deal the highest damage possible. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Perfect Strike:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0.0 / 5</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Perfect+Strike+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="padding-bottom:5px;">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the maximum amount of rage your character can have. Rage is used to attack enemies and cast skills. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Maximum Rage:</b></font>
+</td>
+<td style="padding-bottom:5px;" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+ 10,000 /
+10,000 </font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Maximum+Rage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="padding-bottom:5px;">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Chance of preventing a killing blow once per attack or raid, setting your character to 1hp.')" onmouseout="kill()">Survival:</b></font>
+</td>
+<td style="padding-bottom:5px;" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 20%
+</font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Survival+Intensifier"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Vile damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Vile Damage:</b></font>
+</td>
+<td style="" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0 / 5,500</font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Vile+Energy+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Kinetic elemental damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Kinetic Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+650 /
+1,650  </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Kinetic+Damage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Fire elemental damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Fire Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+650 /
+1650 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Fire+Damage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Arcane elemental damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Arcane Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+650 /
+1650 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Arcane+Damage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Shadow elemental damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Shadow Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+650 /
+1650 </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Shadow+Damage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Holy elemental damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Holy Damage:</b></font>
+</td>
+<td style="" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+650 /
+1650 </font>
+</td>
+<td style="" align="right"><a href="https://outwar.com/treasury?search_for=Holy+Damage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="padding-bottom:5px;">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of Chaos elemental damage you deal. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Chaos Damage:</b></font>
+</td>
+<td style="padding-bottom:5px;" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0 / 100</font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Chaos+Damage+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Kinetic elemental damage you take. 10 Resist = 1% reduction. Maximum of 900. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Kinetic Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+150 / 150</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Kinetic+Resist+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Fire elemental damage you take. 10 Resist = 1% reduction. Maximum of 900. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Fire Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+150 / 150</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Fire+Resist+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Arcane elemental damage you take. 10 Resist = 1% reduction. Maximum of 900. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Arcane Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+150 / 150</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Arcane+Resist+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Shadow elemental damage you take. 10 Resist = 1% reduction. Maximum of 900. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Shadow Resist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+150 / 150</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Shadow+Resist+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="">
+ <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Holy elemental damage you take. 10 Resist = 1% reduction. Maximum of 900. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Holy Resist:</b></font>
+</td>
+<td style="" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+150 / 150</font>
+</td>
+<td style="" align="right"><a href="https://outwar.com/treasury?search_for=Holy+Resist+Enhancement"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="padding-bottom:5px;">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the amount of Chaos elemental damage you take. 10 Resist = 1% reduction. Maximum of 900. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Chaos Resist:</b></font>
+</td>
+<td style="padding-bottom:5px;" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0 / 100</font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Chaos+Resist+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block Kinetic elemental damage in raids. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Kinetic Ele Shield:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+5 / 5</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Kinetic+Elemental+Shield"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block Fire elemental damage in raids. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Fire Ele Shield:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+5 / 5</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Fire+Elemental+Shield"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block Arcane elemental damage in raids. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Arcane Ele Shield:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+5 / 5</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Arcane+Elemental+Shield"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block Shadow elemental damage in raids. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Shadow Ele Shield:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+5 / 5</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Shadow+Elemental+Shield"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="padding-bottom:5px;">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your chance to block Holy elemental damage in raids. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Holy Ele Shield:</b></font>
+</td>
+<td style="padding-bottom:5px;" align="right">
+ <font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+5 / 5</font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Holy+Elemental+Shield"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your skill points. Skill points can be used to upgrade skills to a maximum rank of 10. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Mad Skills:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+2 / 5</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Mad+Skills"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of experience stripped and gained when attacking a player. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Brutal Warrior:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+30% / 30%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Brutal+Warrior"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the amount of gold stripped when attacking a player. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Gold Bandit:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 25%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Gold+Bandit"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the cooldown time of your skills. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Skill Timestretch:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+10% / 10%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Skill+Timestretch"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the attack and hit points gained from your underling buff. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Underling Loyalty:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+10% / 10%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Underling+Loyalty"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the respawn time of mobs. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Killing Time:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+28% / 28%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Killing+Time"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the rage cost to attack mobs. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Warrior's Instinct:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+28% / 28%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Warrior%27s+Instinct"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases the duration of skill and potion effects. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Skill Timepress:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+10% / 10%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Skill+Timepress"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases the damage you take from raid boss spawns. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Boss's Boss:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 10%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Boss%27s+Boss"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your base attack against raid encounters. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Raid Warrior:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0 / 525</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Raid+Warrior"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your health against raid encounters. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Raid Survivalist:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+1,050 / 1,050</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Raid+Survivalist"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your base damage against raid boss spawns. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Boss Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 10%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Boss+Damage+Enhancer"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your total damage against Gladiators. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Gladiator Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 15%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Gladiator+Damage+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases defense against Gladiators. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Gladiator Defense:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 15%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Gladiator+Defense+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Allows you to see if other players have Ambush cast. Ambush allows a player to attack first when attacked by another player. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Spy Goggles:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+Disabled </font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=Spy+Goggles"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases your total damage taken in PvP Attacks. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">PvP Defense:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 20%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=PvP+Defense+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your total damage dealt in PvP Attacks. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">PvP Damage:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 20%</font>
+ </td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=PvP+Damage+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Decreases your opponent\'s Block in PvP Attacks. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">PvP Precision:</b></font>
+</td>
+<td align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+0% / 25%</font>
+</td>
+<td align="right"><a href="https://outwar.com/treasury?search_for=PvP+Precision+Expander"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+<tr>
+<td style="padding-bottom:5px;">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b onmouseover="statspopup(event,'Increases your Last Stand effect by 1 round. Last Stand is a skill that causes you to deal double base damage when you are the last member alive in a raid encounter. Upgrade purchased on the treasury with experience.')" onmouseout="kill()">Last Man Standing:</b></font>
+</td>
+<td style="padding-bottom:5px;" align="right">
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+Enabled </font>
+</td>
+<td style="padding-bottom:5px;" align="right"><a href="https://outwar.com/treasury?search_for=Last+Man+Standing"><img src="https://outwar.com/images/button_increasestat.gif"></a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-12 layout-spacing layout-spacing">
+<div class="widget widget-table-one">
+<div class="widget-heading">
+<h6 class="">Shoutbox</h6>
+</div>
+<div class="widget-content text-left" style="position: relative;">
+<form method="post" style="margin:0px;">
+<ul class="list-group ">
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=4667">HandomeJack69</a>
+</div>
+<div class="col-sm">
+<small>10:35am Feb 18</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+You feel that? That electricity in the air when you're just aching to murder someone? Haven't felt that in such a long time.</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=139332">TinyTina11</a>
+</div>
+<div class="col-sm">
+<small>9:33am Feb 14</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+I'm a little teapot, bloody and cut! Here is my handle, here is my butt.</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=4667">Marcus4Sale</a>
+</div>
+<div class="col-sm">
+<small>5:51pm Feb 11</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+The best things in life are free because then I can sell them at a considerable markup</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=96820">MissingPsycho123</a>
+</div>
+<div class="col-sm">
+<small>5:49pm Feb 11</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+You're Gonna Be My New Meat Bicycle!</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=4667">HandsomeJack69</a>
+</div>
+<div class="col-sm">
+<small>8:40pm Feb 4</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+Jimmy, Please Make A Note: I'm Strangling Mister Moorin For Bringing Up My Wife.</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=106116">PsychoClubLeader</a>
+</div>
+ <div class="col-sm">
+<small>8:28pm Feb 4</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+Bring me a bucket and I'll show you a bucket</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=4667">4URService</a>
+</div>
+<div class="col-sm">
+<small>8:21pm Feb 4</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+I'm not an AI. I'm a person! I sit in a dark room and read what I'm asked! Look -- another incoming message from those jerkbags. It reads: "booty salads." I'm a grown woman who had to say "booty salads" because some jackass wrote those words</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=787545">RIPScooter4Eva</a>
+</div>
+<div class="col-sm">
+<small>9:01am Feb 3</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+Catch a riiiiiiiiiiiide</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=79161">FaceMcShooty</a>
+</div>
+<div class="col-sm">
+<small>5:42pm Feb 1</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+Maybe You're Weighing The Moral Pros And Cons Of The... OH MY GOD, SHOOT ME IN THE FACE!!!</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=23343">TroyRules1999</a>
+</div>
+<div class="col-sm">
+<small>2:16am Feb 1</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+take another murder poll</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=690620">CL4PTR4P</a>
+</div>
+<div class="col-sm">
+<small>2:37pm Jan 31</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+STAIRS!? Nooooooooo.........</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=115303">TheRealTyreen</a>
+</div>
+<div class="col-sm">
+<small>11:01pm Jan 30</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+Don't forget to like, follow, and obey</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=177105">HandsomeJack69</a>
+</div>
+<div class="col-sm">
+<small>3:32am Jan 29</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+Vault Hunter Looks For The New Vault. Vault Hunter Gets Killed. By Me. Seeing The Problem Here?</span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=106116">Ben</a>
+</div>
+<div class="col-sm">
+<small>12:41am Jan 29</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+I'm just here so I don't get fined </span>
+</li>
+<li class="list-group-item">
+<div class="container">
+<div class="row">
+<div class="col-sm">
+<a href="https://outwar.com/profile?id=115303">StudioMoxxi</a>
+</div>
+<div class="col-sm">
+<small>3:31pm Jan 28</small>
+</div>
+</div>
+</div>
+<span style="overflow-wrap: break-word;">
+The best site for outwar art things made by and inspired by the outwar community: www.studiomoxxi.com</span>
+</li>
+</ul>
+</form>
+</div>
+<div id="divSBPost">
+<a href="homepost"><img style="max-width: 100%;" src="https://outwar.com/images/home/sbpostfree.png"></a>
+</div>
+</div>
+</div>
+<style>
+#foot_box {
+position: relative;
+width: 973px;
+background-color:#2b2b2b;
+font-size: 10px;
+font-weight: bold;
+text-align: center;
+padding: 10px;
+}
+
+#foot_box #foot_right {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    width: 100px;
+    vertical-align: middle;
+    border-style: none;
+    border: 0px;
+    background-color: #2b2b2b;
+    text-align: center;
+}
+
+</style>
+</div> 
+</div>
+<div class="footer-wrapper">
+<div class="footer-section f-section-1">
+<p class="">
+<a target="_blank" href="https://outwar.com/privacy">Privacy Policy |</a>
+<a target="_blank" href="https://outwar.com/outwar_tos">Terms of Service |</a>
+<a target="_blank" href="https://outwar.com/purchasepolicy">Purchase Policy | </a>
+<a target="_blank" href="https://outwar.com/contact">Contact Info</a>
+</p>
+</div>
+<div class="footer-section f-section-2">
+<p class="footer-socials">
+<a href="https://facebook.com/Outwar-227661533046"><img src="https://outwar.com/assets/img/facebook.webp"></a>
+<a href="https://discord.com/invite/outwar">
+<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="discord" class="svg-inline--fa fa-discord fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"></path></svg>
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<script src="https://outwar.com/assets/js/app.js"></script>
+<script>
+        $(document).ready(function() {
+            App.init();
+        });
+    </script>
+<script src="https://outwar.com/assets/js/custom.js"></script>
+
+
+<script src="https://outwar.com/plugins/apex/apexcharts.min.js"></script>
+<script src="https://outwar.com/plugins/font-icons/feather/feather.min.js"></script>
+<script type="text/javascript">
+        feather.replace();
+    </script>
+</body>
+</html>
